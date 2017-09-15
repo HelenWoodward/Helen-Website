@@ -284,7 +284,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     color: #000;
     font-size: 3em;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 .w3l-grids-about , .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more{
     margin-top: 3em;
@@ -638,7 +638,7 @@ h3.agileits-title{
     -webkit-transform: scale(0);
 	-moz-transform: scale(0);
 	-o-transform: scale(0);
-    -ms-transform: scale(0); 
+    -ms-transform: scale(0);
     transform: scale(0);
     color: #e4e2e2;
 }
@@ -654,7 +654,7 @@ h3.agileits-title{
     -webkit-transform: scale(1);
 	-moz-transform: scale(1);
     -ms-transform: scale(1);
-	-o-transform: scale(1); 
+	-o-transform: scale(1);
     transform: scale(1);
 }
 /*-- Services-ends-here --*/
@@ -674,7 +674,7 @@ h3.agileits-title{
 	color: #000;
 }
 
-#myList li{ 
+#myList li{
 	display: none;
 	list-style-type: none;
 	/*--w3layouts--*/
@@ -805,7 +805,7 @@ li.aitsaitsresumewthreeli-1 {
 /*-- //Work --*/
 /*-- experience-ends-here --*/
 
-/*-- Portfolio-starts-here --*/ 
+/*-- Portfolio-starts-here --*/
 .filtr-item {
    padding: 0 3px !important;
 }
@@ -870,7 +870,7 @@ ul.simplefilter {
     height:100%;
 	background-size: cover !important;
 }
-/*-- //img-hover-effect --*/  
+/*-- //img-hover-effect --*/
 /*-- Portfolio-ends-here --*/
 .map iframe {
     width: 100%;
@@ -1030,7 +1030,7 @@ textarea {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1294,7 +1294,7 @@ textarea {
 	}
 }
 @media(max-width: 900px){
-	
+
 }
 @media(max-width: 800px){
 	.logo-w3layouts h1 a {
@@ -2196,4 +2196,3 @@ textarea {
 }
 
 /*-- //responsive-ends-here --*/
-
