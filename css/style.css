@@ -2195,4 +2195,11 @@ textarea {
 	}
 }
 
+.pinned {
+	position: fixed;
+	top: 0px;
+  right: 0px;
+	z-index: 100;
+}
+
 /*-- //responsive-ends-here --*/
