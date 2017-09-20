@@ -1641,6 +1641,16 @@ textarea {
 	}
 }
 @media(max-width: 480px){
+	.mobilecenter {
+		display: flex;
+  	align-items: center;
+	}
+	.mobilecenter img {
+		margin: 0
+	}
+	.work-info h4:before {
+		display: none;
+	}
 	.logo-w3layouts h1 a {
 		letter-spacing: 0px;
 		font-size: 0.85em;
