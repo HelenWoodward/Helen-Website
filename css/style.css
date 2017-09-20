@@ -158,8 +158,10 @@ a:focus, a:hover {
 	text-decoration:none;
 }
 ul.nav.navbar-nav.navbar-right.margin-top {
-	margin: 1em;
-	padding:0;
+	padding: 1em;
+	width: 100%;
+	margin: 0px;
+	background-color: white;
 }
 ul.nav.navbar-nav.navbar-right.margin-top li{
 	margin:0px 10px 0px 0px;
@@ -257,7 +259,7 @@ span.glyphicon.glyphicon-search.edit {
 
 /*-- About-starts-here --*/
 #about,.services,#portfolio, .wthreeskills, .aitsresumewthree{
-    padding: 4em 0;
+    padding: 5em 0 4em 0;
 }
 .w3ls-agile-left-info {
     padding: 1em 0;
@@ -878,9 +880,12 @@ ul.simplefilter {
 }
 /*-- contact-starts-here --*/
 .contact-left-agile {
-    float: left;
-    width: 50%;
-	padding-left: 14em;
+		width: 500px;
+		margin: 0 auto;
+		padding: 1em 3em 1em 3em;
+}
+.contact-agile {
+	background-color: black;
 }
 .contact-right-w3l {
     float: right;
@@ -1225,7 +1230,8 @@ textarea {
 		min-height: 465px;
 	}
 	.text-w3l {
-		width: 80%;
+		width: 100%;
+		float: left;
 	}
 	.w3ls-agile-left-info {
 		padding: 0.3em 0;
@@ -1618,7 +1624,7 @@ textarea {
 		font-size: 2em;
 	}
 	.text-w3l {
-		width: 78%;
+		width: 100%;
 	}
 	.w3ls-agile-left-info h4, .social-info h4 {
 		font-size: 1.4em;
@@ -1659,7 +1665,7 @@ textarea {
 		min-height: 260px;
 	}
 	.agile-about-right-img img {
-		width: 60%;
+		width: 100%;
 	}
 	.banner-info-w3l h2 {
 		font-size: 1.2em;
@@ -1737,15 +1743,14 @@ textarea {
 	.work-info h4 {
 		padding: 10px 25px;
 		font-size: 14px;
-		margin-left: 90px;
-		margin-top: 35px;
+		margin-left: 35px;
 	}
 	.work-info p {
 		text-align: left;
 		line-height: 29px;
 	}
 	.work-right {
-		height: 129px;
+		height: auto;
 		text-align: right;
 		border: none;
 		padding: 0;
@@ -1762,12 +1767,12 @@ textarea {
 		float: left;
 		text-align: left;
 	}
-	.work-info .work-right2 h4 {
-		margin-left: 235px;
-	}
 	.work-info .work-left2 h5 {
 		top: -51px;
 		right: 49%;
+	}
+	.work-info{
+		padding-bottom: 16px;
 	}
 	.work-left2 {
 		height: 126px;
@@ -1867,9 +1872,6 @@ textarea {
 	.work-info h4 {
 		margin-left: 35px;
 	}
-	.work-info .work-right2 h4 {
-		margin-left: 201px;
-	}
 	#loadMore {
 		width: 33%;
 	}
@@ -1906,13 +1908,13 @@ textarea {
 		padding: 0.3em 0;
 	}
 	.agile-about-right-img img {
-		width: 80%;
+		width: 100%;
 	}
 	h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskills h3, .aitsresumewthree-tag h3, .wthreeskills h3 {
 		font-size: 1.8em;
 	}
 	.text-w3l {
-		width: 79%;
+		width: 100%;
 	}
 	.hovicon {
 		margin: 18px 4px;
@@ -1943,9 +1945,6 @@ textarea {
 	}
 	.work-info h5 {
 		right: 14.5%;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 186px;
 	}
 	.work-info h5 {
 		padding: 9px 23px;
@@ -1983,7 +1982,7 @@ textarea {
 		margin: 18px 2px;
 	}
 	.text-w3l {
-		width: 81%;
+		width: 100%;
 	}
 	.hovicon {
 		font-size: 1.7em;
@@ -2002,9 +2001,6 @@ textarea {
 	}
 	.work-info p {
 		line-height: 24px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 181px;
 	}
 	h5.univ {
 		right: 8.6% !important;
@@ -2074,7 +2070,7 @@ textarea {
 		font-size: 1.2em;
 	}
 	.text-w3l {
-		width: 73%;
+		width: 100%;
 	}
 	.wthreeskills-grid-2 h4, .wthreeskills-grid-1 h4 {
 		font-size: 1.2em;
@@ -2128,9 +2124,6 @@ textarea {
 	.work-info h5 {
 		padding: 8px 13px;
 		font-size: 13px;
-	}
-	.work-info .work-right2 h4 {
-		margin-left: 153px;
 	}
 	.work-info p {
 		line-height: 23px;
