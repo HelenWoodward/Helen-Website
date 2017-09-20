@@ -1641,13 +1641,6 @@ textarea {
 	}
 }
 @media(max-width: 480px){
-	.mobilecenter {
-		display: flex;
-  	align-items: center;
-	}
-	.mobilecenter img {
-		margin: 0
-	}
 	.work-info h4:before {
 		display: none;
 	}
@@ -1901,10 +1894,10 @@ textarea {
 		padding: 7px;
 	}
 	.work-right {
-		height: 135px;
+		height: auto;
 	}
 	.work-left2 {
-		height: 135px;
+		height: auto;
 	}
 }
 @media(max-width: 384px){
