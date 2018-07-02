@@ -6,6 +6,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 /*-- Reset Code --*/
+container {
+	    padding-top: 40px;
+}
 body {
 	padding:0;
 	margin:0;
@@ -161,7 +164,7 @@ ul.nav.navbar-nav.navbar-right.margin-top {
 	padding: 1em;
 	width: 100%;
 	margin: 0px;
-	background-color: white;
+	background-color: #07cb79;
 }
 ul.nav.navbar-nav.navbar-right.margin-top li{
 	margin:0px 10px 0px 0px;
