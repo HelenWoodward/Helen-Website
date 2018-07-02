@@ -964,6 +964,9 @@ input[type="submit"]:hover {
     margin: 1em 0em 2em;
 	line-height: 1.9em;
 }
+.motus-logo {
+	width: inherit;
+}
 .add-w3ls-main span {
     float: left;
 }
